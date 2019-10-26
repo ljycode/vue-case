@@ -19,7 +19,7 @@ export default {
     // eslint-disable-next-line no-console
     console.log(this.$refs.getDom);
     // eslint-disable-next-line no-console
-    console.log(this.$refs.comp.num);
+    console.log(this.$refs.comp.num); // 由此可获取组件的属性（如data中的num值）和方法
   },
   components: {
     myComp: {

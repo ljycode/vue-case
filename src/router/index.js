@@ -5,6 +5,8 @@ import CheckAll from '@/components/CheckAll';
 import ParentToChild from '@/components/ParentToChild';
 import FoldMenu from '@/components/FoldMenu';
 import GetDom from '@/components/GetDom';
+import FilterApply from '@/components/FilterApply';
+import BallBox from '@/components/BallBox';
 
 Vue.use(Router);
 
@@ -34,6 +36,16 @@ export default new Router({
       path: '/getdom',
       name: 'GetDom',
       component: GetDom,
+    },
+    {
+      path: '/filter',
+      name: 'FilterApply',
+      component: FilterApply,
+    },
+    {
+      path: '/ball',
+      name: 'BallBox',
+      component: BallBox,
     },
   ],
 });
